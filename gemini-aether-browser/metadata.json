@@ -1,0 +1,5 @@
+{
+  "name": "Gemini Aether Browser",
+  "description": "An advanced browser interface powered by Google's Gemini API, providing a conversational way to explore the web and ideas with Aether.",
+  "requestFramePermissions": []
+}

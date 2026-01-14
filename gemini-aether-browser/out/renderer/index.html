@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com https://aistudiocdn.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; object-src 'self'">
+    <title>Gemini Aether Browser</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+      .gemini-gradient-text {
+        background: -webkit-linear-gradient(45deg, #4285F4, #9B72F1, #F4B400, #0F9D58);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .blinking-cursor {
+        display: inline-block;
+        width: 8px;
+        height: 1.2rem;
+        background-color: #9B72F1;
+        animation: blink 1s step-end infinite;
+        margin-left: 4px;
+        border-radius: 1px;
+      }
+      @keyframes blink {
+        from, to { background-color: transparent }
+        50% { background-color: #9B72F1; }
+      }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+  <script type="module" crossorigin src="./assets/main-meDtMShE.js"></script>
+</head>
+  <body class="bg-gray-900">
+    <div id="root"></div>
+  </body>
+</html>
