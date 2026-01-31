@@ -1,0 +1,5 @@
+{
+  "name": "Gemini Nexus Browser",
+  "description": "An advanced browser interface powered by Google's Gemini API, providing a conversational way to explore information and ideas.",
+  "requestFramePermissions": []
+}
